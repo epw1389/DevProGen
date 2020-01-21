@@ -1,0 +1,25 @@
+{
+  "name": "devprogen",
+  "version": "1.0.0",
+  "description": "Developer Profile Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epw1389/DevProGen.git"
+  },
+  "author": "Lisa Walter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epw1389/DevProGen/issues"
+  },
+  "homepage": "https://github.com/epw1389/DevProGen#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "electron": "^5.0.12",
+    "electron-html-to": "^2.6.0",
+    "inquirer": "^7.0.3"
+  }
+}
