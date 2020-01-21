@@ -75,7 +75,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
                     grid-column: 2 / span 4;
                     grid-template-rows: 50px 50px auto auto auto;
                     grid-template-columns: 10% 80% 10%;
-                    background-color: lightskyblue;
+                    background-color: ##E6E6FA;
                     border-radius: 5px;
                     align-items: center;
                 }
