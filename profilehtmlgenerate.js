@@ -100,7 +100,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
         
                 .main-container{
                     display: grid;
-                    background-color: white;
+                    background-color: #E6E6FA;
                     grid-row: 5/6;
                     grid-column: 2 / span 4;
                     grid-template-rows: 10px auto 1fr 1fr 30px;
