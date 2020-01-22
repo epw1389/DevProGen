@@ -21,6 +21,7 @@ command-line application that creates a PDF based on a github user's profile
 ​
 * Clone this repository.
 * Execute command: npm install
+* Execute command node index.js
 ​
 
 ​
@@ -29,8 +30,8 @@ command-line application that creates a PDF based on a github user's profile
 Node.js
 
 ​
-## Contribution Guidlines 
+ 
 ​
-Direct link to repo: https://github.com/epw1389/DevProGen
+[Link to Repo](https://github.com/epw1389/DevProGen)
 
 ​
