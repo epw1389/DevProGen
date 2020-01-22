@@ -28,7 +28,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <title>GitHub Profile: ${response.name}</title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"/>
-            <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
             <style>
                 ul{
                     display: flex;
@@ -38,7 +38,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
                 body {
                     background-color: white;
                     -webkit-print-color-adjust: exact !important;
-                    font-family: 'Montserrat', sans-serif;
+                    font-family: 'Open Sans', sans-serif;
                 }
                 img {
                     height: 100%;
@@ -75,7 +75,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
                     grid-column: 2 / span 4;
                     grid-template-rows: 50px 50px auto auto auto;
                     grid-template-columns: 10% 80% 10%;
-                    background-color: ##E6E6FA;
+                    background-color: #E6E6FA;
                     border-radius: 5px;
                     align-items: center;
                 }
@@ -144,7 +144,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
                 }
         
                 .link a {
-                    color: blue;
+                    color: black;
                     text-decoration: none;
                     font-size: 24px;
                 }
