@@ -39,6 +39,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
                     background-color: white;
                     -webkit-print-color-adjust: exact !important;
                     font-family: 'Open Sans', sans-serif;
+                    color: white;
                 }
                 img {
                     height: 100%;
@@ -53,7 +54,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
                     font-size: 32px;
                     font-weight: bold;
                 }
-                .mega-container{
+                .bigcontainer{
                     display: grid;
                     grid-template-rows: 50px 50px 100px 1fr 1fr 10%; 
                     grid-template-columns: 5% 15% 30% 30% 15% 5%;
@@ -75,7 +76,8 @@ function generateHtml(response, StarredCount, backgroundColor) {
                     grid-column: 2 / span 4;
                     grid-template-rows: 50px 50px auto auto auto;
                     grid-template-columns: 10% 80% 10%;
-                    background-color: #E6E6FA;
+                    background-color: black;
+                    color: white;
                     border-radius: 5px;
                     align-items: center;
                 }
@@ -100,7 +102,8 @@ function generateHtml(response, StarredCount, backgroundColor) {
         
                 .main-container{
                     display: grid;
-                    background-color: #E6E6FA;
+                    background-color: black;
+                    color: white;
                     grid-row: 5/6;
                     grid-column: 2 / span 4;
                     grid-template-rows: 10px auto 1fr 1fr 30px;
@@ -111,6 +114,7 @@ function generateHtml(response, StarredCount, backgroundColor) {
         
                 .card{
                     background: ${backgroundColor};
+                    color: white;
                     border-radius: 5px;
                     display: flex;
                     flex-direction: column;
@@ -144,14 +148,14 @@ function generateHtml(response, StarredCount, backgroundColor) {
                 }
         
                 .link a {
-                    color: black;
+                    color: white;
                     text-decoration: none;
                     font-size: 24px;
                 }
             </style>
         </head>
         <body>
-            <div class = mega-container>
+            <div class = bigcontainer>
                 <img class = "profile-pic" src="${response.avatar_url}"/>
                 <header class = "header-container">
                     <div class = "header-text greeting">

@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const html = require('./profilehtmlgenerate');
+const html = require('./htmltemplate');
 async function start(answers) {
     console.log("Calling html generator");
     const htmlContent = await html.getHTML(answers.username, answers.color);
